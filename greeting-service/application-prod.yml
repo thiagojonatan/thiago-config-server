@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: greenting-service
+  cloud:
+    config:
+      enabled: false
+greenting-service:
+  greenting: "Cia"
+  default-value: "Mondo"
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'

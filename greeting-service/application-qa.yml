@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: greenting-service
+  cloud:
+    config:
+      enabled: false
+greenting-service:
+  greenting: "Olá"
+  default-value: "Mundo"
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
