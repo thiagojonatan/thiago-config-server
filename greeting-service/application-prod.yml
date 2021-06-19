@@ -5,7 +5,7 @@ spring:
     config:
       enabled: false
 greenting-service:
-  greenting: "Cia"
+  greenting: "Pronto"
   default-value: "Mondo"
 management:
   endpoints:
